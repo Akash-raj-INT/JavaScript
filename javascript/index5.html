@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mainDiv" >
+    <h1>
+        JAVASCRIPT and DOM
+    </h1>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid minima a at nesciunt est quae rem expedita,
+         tempore vel quo aperiam voluptatum inventore labore tenetur, officia ex. Pariatur, libero sint.
+    </p>
+
+        <input type ="button" value="count" id ="counting">
+        <input type ="button" value="color" id="color">
+    </div>
+    <script>
+        let toggleButton = document.getElementById("toggleButton");
+        let para = document.getElementById("para");
+        let printbutton = document.getElementById("printbutton")
+
+        function greet(){
+            console.log("hello world");
+        }
+
+        //let Timeout(greet,5000)
+        //clearTimeout(Timeout);
+
+        let interval = setInterval(greet,1000);
+        clearInterval(interval);
+   
+
+
+    
+      
+
+       
+    </script>
+</body>
+</html>
