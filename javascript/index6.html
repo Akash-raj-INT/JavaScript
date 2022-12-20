@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mainDiv" >
+    <h1>
+        JAVASCRIPT and DOM
+    </h1>
+    <p id="clock">DATE AND TIME IS: <span id="dateTime"</p>
+    </p>
+
+        <input type ="button" value="count" id ="counting">
+        <input type ="button" value="color" id="color">
+    </div>
+    <script>
+        //let toggleButton = document.getElementById("toggleButton");
+        //let para = document.getElementById("para");
+        //let printbutton = document.getElementById("printbutton")
+        let textTochange = document.getElementById("dateTochange")
+
+        function display(){
+            let datetime = new Date();
+            console.log(dateTime);
+            textTochanage.innerHTML=datetime;
+            
+        }
+        setInterval(display,1000);
+
+        //let Timeout(greet,5000)
+        //clearTimeout(Timeout);
+
+        // let interval = setInterval(greet,1000);
+        // clearInterval(interval);
+   
+
+
+    
+      
+
+       
+    </script>
+</body>
+</html>
